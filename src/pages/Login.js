@@ -31,8 +31,8 @@ function Login(props){
         },
         variables: values,
         onError(err) {
-            console.log(err.graphQLErrors[0].extensions.errors);
-            setErrors(err.graphQLErrors[0].extensions.errors)
+            console.log(err.graphQLErrors[0].errors);
+            setErrors(err.graphQLErrors[0].errors)
 			
 		}
     })
