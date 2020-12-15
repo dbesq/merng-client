@@ -9,7 +9,7 @@ import { ApolloProvider } from '@apollo/react-hooks'
 import { setContext } from 'apollo-link-context'
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:5000'
+    uri: 'https://fathomless-dusk-10581.herokuapp.com/'
 })
 
 // Get token from localStorage to use when creating new posts in components/PostForm.js
